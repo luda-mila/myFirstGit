@@ -1,11 +1,11 @@
 public class CreateNewProducts {
 
 	public static String methodB() {
-		return 'Bay';
+		return 'Branch C';
 	}
-    	public static String methodA() {
+    public static String methodA() {
 		return 'Hello';
-    	}	
+    }
     public static void HandlerNewProducts (List<Product_Table__c> newProducts)
     {
       Integer oc = (Integer)[SELECT Period_Term__c FROM Org_Configuration__c][0].Period_Term__c;
